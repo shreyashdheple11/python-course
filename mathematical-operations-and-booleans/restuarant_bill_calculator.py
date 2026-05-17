@@ -11,7 +11,7 @@ discount = 0
 
 if original_bill_amt <500:
     tip = 0
-if original_bill_amt >=500 and original_bill_amt <1500:
+elif original_bill_amt >=500 and original_bill_amt <1500:
     tip = 0.10*original_bill_amt
 
 else:
@@ -29,7 +29,7 @@ else:
 
 tax = 0.05*original_bill_amt
 
-#Print of reciept !
+#Print of reciept 
 
 print('-'*60)
 print('-'*60)
