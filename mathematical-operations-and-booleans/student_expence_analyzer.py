@@ -10,7 +10,6 @@ others = float(input('any other spends ? '))
 print(' '*500)
 print('-'*60)
 print('               **Analysis and recommendations**')
-print(' '*60)
 print('-'*60)
 
 #main category-wise spends to percentage function. 
